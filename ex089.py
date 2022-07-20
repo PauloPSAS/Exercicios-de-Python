@@ -1,6 +1,3 @@
-from operator import le
-
-
 ficha = list()
 while True:
     nome = str(input('Nome: '))
