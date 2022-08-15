@@ -1,2 +1,2 @@
 # Exercicios-de-Python
- Exercicios de Python do Curso em video resolvidos
+ Exercicios resolvidos de Python do Curso em video
