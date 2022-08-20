@@ -1,7 +1,7 @@
-from datetime import date
+from datetime import datetime
 
 pessoa = dict()
-ano_atual = date.today().year
+ano_atual = datetime.now().year
 
 pessoa["nome"] = str(input('Nome: ')).strip().title()
 ano_nascimento = int(input('Ano de nascimento: '))
