@@ -1,10 +1,11 @@
-def escreva(t):
-    t = len(txt)
-    print('~' * t)
+def escreva(msg):
+    t = len(msg) + 4
+    print('\033[1;33m~\033[m' * t)
+    print(f'\033[36m  {msg}')
+    print('\033[1;33m~\033[m' * t)
 
 
 # Main
-txt = str(input('Digite qualquer Frase: '))
-escreva(txt)
-print(txt)
-escreva(txt)
+escreva('Paulo Souza')
+escreva('Curso de Python no YouTube')
+escreva('CeV')
