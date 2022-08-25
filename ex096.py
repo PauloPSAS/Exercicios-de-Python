@@ -4,10 +4,9 @@ def area(l, c):
 
 
 # main
-txt = 'controle de terrenos'
-print('=' * len(txt))
-print(txt)
-print('=' * len(txt))
+print('=' * 20)
+print('controle de terrenos')
+print('=' * 20)
 area(
     float(input('LARGURA (m): ')),
     float(input('COMPRIMENTO (m): '))
