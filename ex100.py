@@ -11,9 +11,8 @@ def soma_par(l):
             c += v
     sleep(.5)
     print(c)
-    
-    
-    
+
+
 def sorteia(l):
     for cont in range(0, 5):
         l.append(randint(0, 9))
