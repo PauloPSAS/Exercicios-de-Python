@@ -8,7 +8,7 @@ def maior(*num):
     print('Analisando os valores passados...')
     for valor in num:
         print(valor, end=' ')
-        sleep(.3)
+        sleep(.5)
         if valor > m:
             m = valor
         c += 1
