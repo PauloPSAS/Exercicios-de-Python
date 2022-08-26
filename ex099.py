@@ -1,22 +1,23 @@
 from random import randint
+from time import sleep
 
-lista = list()
+
+def maior(*num):
+    m = c = 0
+    print('-=' * 30)
+    print('Analisando os valores passados...')
+    for valor in num:
+        print(valor, end=' ')
+        sleep(.3)
+        if valor > m:
+            m = valor
+        c += 1
+    print(f'Foram informado(s) {c} valor(es) ao todo.')
+    print(f'O maior valor informado foi {m}.')
 
 
-for c in range(0, 5):
-    lista.clear()
-    mai = 0
-    print('-=' * 33)
-    print('Analisando valores passados...')
-    cont = randint(0, 10)
-    if cont == 0:
-        print('Foi informado 0 valores a ser passado...')
-        print(f'O maior valor informado foi {mai}.')
-    else:
-        for n in range(0, cont):
-            lista.append(randint(0, 20))
-            print(lista[n], end=' ')
-            if lista[n] > mai:
-                mai = lista[n]
-        print(f'Foram informado(s) ao todo {len(lista)} valor(es).')
-        print(f'O maior valor informado foi {mai}.')
+maior(randint(0, 20), randint(0, 20), randint(0, 20), randint(0, 20), randint(0, 20))
+maior(randint(0, 20), randint(0, 20), randint(0, 20),)
+maior(randint(0, 20), randint(0, 20),)
+maior(randint(0, 20))
+maior()
