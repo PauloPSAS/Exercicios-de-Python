@@ -15,7 +15,7 @@ def soma_par(l):
 
 def sorteia(l):
     for cont in range(0, 5):
-        l.append(randint(0, 9))
+        l.append(randint(0, 20))
         print(l[cont], end=' ')
         sleep(.5)
     print('PRONTO!')
