@@ -7,7 +7,6 @@ def soma_par(l):
     for v in l:
         if v % 2 == 0:
             c += v
-    sleep(.5)
     print(c)
 
 
@@ -23,4 +22,5 @@ lista = list()
 print('Sorteando 5 valores da lista: ', end='')
 sorteia(lista)
 print(f'Somando os valores pares de {lista}, temos ', end='')
+sleep(1)
 soma_par(lista)
