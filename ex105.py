@@ -5,21 +5,12 @@ def notas(*n, sit=False):
     :param sit: Valor opcional, indica se deve ou não mostrar a situação do aluno.
     :return: Dicionário com as informações do aluno.
     """
-    mai = men = med = 0
+
     dic = dict()
     dic['total'] = len(n)
-    for i, v in enumerate(n):
-        med += v
-        if i == 0:
-            mai = men = v
-        else:
-            if v > mai:
-                mai = v
-            if v < men:
-                men = v
-    dic['maior'] = mai
-    dic['menor'] = men
-    dic['média'] = med / len(n)
+    dic['maior'] = max(n)
+    dic['menor'] = min(n)
+    dic['média'] = sum(n) / len(n)
     if sit:
         if dic['média'] < 6:
             dic['situação'] = 'RUIM'
