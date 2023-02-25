@@ -1,2 +1,2 @@
 # Exercicios-de-Python
-Exercícios resolvidos de alguns lugares que eu estudei
+Exercícios resolvidos de sites e cursos.
