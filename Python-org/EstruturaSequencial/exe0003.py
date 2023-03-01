@@ -8,17 +8,16 @@ def soma(v1, v2):
 
 
 while True:
-    while True:
-        a = input("Digite um número: ")
-        if a.isnumeric():
-            break
-        else:
-            msg_erro()
-    while True:
-        b = input("Digite outro número: ")
-        if b.isnumeric():
-            break
-        else:
-            msg_erro()
-    break
+    a = input("Digite um número: ")
+    if a.isnumeric():
+        break
+    else:
+        msg_erro()
+while True:
+    b = input("Digite outro número: ")
+    if b.isnumeric():
+        break
+    else:
+        msg_erro()
+
 print(f"\nA soma de {int(a)} + {int(b)} é igual à {soma(int(a), int(b))}")
