@@ -15,7 +15,6 @@ qtdLatas18 = ceil(qtdTinta / 18)
 valorLatas = int(qtdLatas18) * 80
 qtdgaloes3 = ceil(qtdTinta / 3.6)
 valorGaloes = int(qtdgaloes3) * 25
-ctt = int(qtdLatas18)
 latasP = qtdTinta // 18
 resto = qtdTinta % 18
 galoesP = ceil(resto / 3.6)
