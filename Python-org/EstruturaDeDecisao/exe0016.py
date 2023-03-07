@@ -33,6 +33,6 @@ else:
     print("Delta é positivo portanto possui duas raízes reais.")
     x = ((0 - bx) + sqrt(delta)) / (2 * ax)
     y = ((0 - bx) - sqrt(delta)) / (2 * ax)
-    print("São eles: ")
+    print("São elas: ")
     print(f"Raiz 1: {x:.1f}\nRaiz 2: {y:.1f}")
 
