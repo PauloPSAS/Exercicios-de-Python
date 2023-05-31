@@ -1,3 +1,7 @@
+""" Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por
+eles."""
+
+
 def gerador_de_num_int(ma, me):
     for n in range(me, ma + 1):
         if n != ma:
