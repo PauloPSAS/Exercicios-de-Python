@@ -20,3 +20,4 @@ def primo(num):
 
 numero = int(input("Digite um número inteiro: "))
 primo(numero)
+print('\n')
