@@ -2,7 +2,7 @@ num = int(input('Digite um número: '))
 total = 0
 for c in range(1, num + 1):
 
-    # A cada dez números daá um quebra de linha
+    # A cada dez números dá um quebra de linha
     if c % 10 == 0:
         print('\n')
 
