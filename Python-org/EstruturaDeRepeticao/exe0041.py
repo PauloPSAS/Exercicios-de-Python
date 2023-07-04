@@ -10,24 +10,19 @@ Quantidade de Parcelas % de Juros sobre o valor inicial da dívida
     9       20
     12      25"""
 
-
-def parcela_invalida():
-    print("\nDigite um valor de parcelas válidos entre 1 e 12.")
-
-
 pct = valorParcelas = valorJuros = dividaFinal = 0
 divida = float(input("Digite o valor da divida: R$ "))
 while True:
     parcelas = int(input("\nDigite em quantas parcelas será dividido a divida (entre 1 e 12): "))
     if parcelas <= 0 or parcelas > 12:
-        parcela_invalida()
+        print("\nDigite um valor de parcelas válidos entre 1 e 12.")
     else:
         break
-if 12 >= parcelas > 9:
+if parcelas > 9:
     pct = 25
-elif 9 >= parcelas > 6:
+elif parcelas > 6:
     pct = 20
-elif 6 >= parcelas > 3:
+elif parcelas > 3:
     pct = 10
 else:
     pct = 0
