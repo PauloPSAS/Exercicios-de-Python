@@ -10,7 +10,6 @@ Quantidade de Parcelas % de Juros sobre o valor inicial da dívida
     9       20
     12      25"""
 
-pct = valorParcelas = valorJuros = dividaFinal = 0
 divida = float(input("Digite o valor da divida: R$ "))
 while True:
     parcelas = int(input("\nDigite em quantas parcelas será dividido a divida (entre 1 e 12): "))
