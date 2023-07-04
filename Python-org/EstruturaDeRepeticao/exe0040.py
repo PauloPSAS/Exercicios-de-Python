@@ -45,7 +45,7 @@ def menor_indice_acidentes(c):
 
 
 def media_veiculos(c):
-    media = 0
+    media = 1
     for cidade in c:
         media += c[cidade]['numero_veiculos']
     media /= len(c)
