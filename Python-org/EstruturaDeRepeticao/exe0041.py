@@ -22,6 +22,8 @@ if parcelas > 9:
 elif parcelas > 6:
     pct = 20
 elif parcelas > 3:
+    pct = 15
+elif parcelas > 1:
     pct = 10
 else:
     pct = 0
