@@ -1,6 +1,6 @@
 def notas(*n, sit=False):
     """
-    => Função para analisar notas e situações de vários alunos.
+    ≥ Função para analisar notas e situações de vários alunos.
     :param n: Uma ou mais notas do aluno (aceita várias).
     :param sit: Valor opcional, indica se deve ou não mostrar a situação do aluno.
     :return: Dicionário com as informações do aluno.
