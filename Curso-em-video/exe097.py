@@ -6,3 +6,5 @@ def escreva(txt):
     print('~' * tamanho)
 
 escreva('Brazil')
+escreva('Curso em Video')
+escreva('Paulo Souza')
