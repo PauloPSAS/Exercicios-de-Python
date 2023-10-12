@@ -17,14 +17,14 @@ def contador(i, f, p):
     if i < f:
         cont = i
         while cont <= f:
-            print(cont, end=' ')
+            print(cont, end=' ', flush=True)
             cont += p
             sleep(.7)
         print('FIM!')
     else:
         cont = i
         while cont >= f:
-            print(cont, end=' ')
+            print(cont, end=' ', flush=True)
             cont -= p
             sleep(.7)
         print('FIM!')
