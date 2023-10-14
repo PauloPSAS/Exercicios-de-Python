@@ -1,26 +1,27 @@
-def sortear():
-    from time import sleep
+from time import sleep
+
+
+def sorteia_num(lista):
     from random import randint
 
-
-    def soma_par(lista):
-        s = 0
-        sleep(.5)
-        print(f"Somando os valores pares de {lista}, temos ", end='')
-        for v in lista:
-            if v % 2 == 0:
-                s += v
-        print(s)
-
-
-    print("Sorteando 5 valores da lista: ", end='')
-    valores = []
-    for x in range(0, 5):
-        valores.append(randint(0, 9))
-        sleep(.5)
-        print(valores[x], end=' ', flush=True)
+    print("Sorteando 5 valores da lista: ", end='', flush=True)
     sleep(.5)
+    for n in range(0, 5):
+        lista.append(randint(0, 99))
+        print(lista[n], end=' ', flush=True)
+        sleep(.5)
     print("PRONTO!")
-    soma_par(valores)
 
-sortear()
+
+def soma_par(lista):
+    s = 0
+    for n in lista:
+        if n % 2 == 0:
+            s += n
+    sleep(1)
+    print(f"Somando os valores pares de {lista}, temos {s}.")
+
+
+num = list()
+sorteia_num(num)
+soma_par(num)
